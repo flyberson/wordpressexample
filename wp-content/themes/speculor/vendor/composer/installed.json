@@ -1,0 +1,36 @@
+[
+    {
+        "name": "freemius/wordpress-sdk",
+        "version": "dev-feature/fs-theme-mode-v4",
+        "version_normalized": "dev-feature/fs-theme-mode-v4",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Freemius/wordpress-sdk.git",
+            "reference": "fcaa4d043bdbd4c4623000730d81502a2a83e38d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Freemius/wordpress-sdk/zipball/fcaa4d043bdbd4c4623000730d81502a2a83e38d",
+            "reference": "fcaa4d043bdbd4c4623000730d81502a2a83e38d",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2"
+        },
+        "time": "2017-03-13T20:12:48+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "description": "Freemius WordPress SDK",
+        "homepage": "https://freemius.com",
+        "keywords": [
+            "freemius",
+            "plugin",
+            "sdk",
+            "wordpress"
+        ]
+    }
+]

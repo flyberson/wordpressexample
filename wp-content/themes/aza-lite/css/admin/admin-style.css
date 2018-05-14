@@ -1,0 +1,185 @@
+.customize-control-title {
+  margin-top: 15px;
+  color: #313131;
+}
+.repeater_repeater_container, .repeater_general_control_repeater_container {
+  width: 100%;
+  float: left;
+  padding: 5px 0;
+  cursor: move;
+}
+.repeater_repeater_container .parallax-box-content-hidden, .repeater_general_control_repeater_container .parallax-box-content-hidden {
+  padding: 5px;
+  border: 1px solid #dfdfdf;
+  border-top: 0;
+  padding-top: 0;
+}
+button.repeater_remove_field {
+  display: inline-block;
+  width: 25% !important;
+  height: 57px !important;
+  white-space: initial !important;
+  line-height: 17px !important;
+  float: right;
+}
+button.repeater_general_control_remove_field {
+  width: 100%;
+  margin-top: 10px!important;
+}
+button.repeater_general_control_remove_field:hover {
+  background-color: #00a0d2!important;
+  color: #FFFFFF!important;
+  border: 0;
+}
+.repeater_repeater_container .repeater_icon_link, .repeater_general_control_repeater_container .repeater_text_control, .repeater_general_control_repeater_container .repeater_link_control {
+  width: 100% !important;
+  margin: 3px 0 0 !important;
+}
+.repeater_repeater_container .repeater_icons, .repeater_general_control_repeater_container .repeater_icon_control {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+#repeater_new_field, #repeater_general_control_new_field {
+  width: 100%;
+}
+.customize-control-widget_form .widget-control-save {
+  display: block !important;
+}
+.repeater_our_services_image_control {
+  display: none;
+}
+.repeater_our_services_icon_control {
+  display: none;
+}
+.repeater_general_control_repeater_container .parallax-box-content-hidden {
+  display: none;
+}
+.parallax-box-content-hidden {
+  background-color: #FFFFFF;
+}
+.parallax-customize-control-title {
+  border: 1px solid #dfdfdf;
+  cursor: move !important;
+  font-weight: bold;
+  padding: 0 10px !important;
+  height: 40px;
+  line-height: 40px !important;
+  background-color: #f1f1f1;
+  background-image: -ms-linear-gradient(top, #f9f9f9, #ececec);
+  background-image: -moz-linear-gradient(top, #f9f9f9, #ececec);
+  background-image: -o-linear-gradient(top, #f9f9f9, #ececec);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#ececec));
+  background-image: -webkit-linear-gradient(top, #f9f9f9, #ececec);
+  background-image: linear-gradient(top, #f9f9f9, #ececec);
+  overflow: hidden;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: inset 0 1px 0 #fff;
+  -webkit-box-shadow: inset 0 1px 0 #fff;
+  box-shadow: inset 0 1px 0 #fff;
+  text-align: center;
+  color: #00a0d2;
+}
+.repeater_image_control .custom_media_button_parallax_one {
+  margin-top: 5px;
+}
+#customize-control-repeater_contact_form_shortcode {
+  display: none;
+}
+.repeater_radio_control {
+  margin-top: 0;
+}
+.repeater_general_control_repeater_container .parallax-box-content-hidden {
+  padding-top: 5px;
+}
+
+/*Pluto alpha color picker style*/
+
+.pluto-alpha-container .transparency {
+  height: 24px;
+  width: 100%;
+  background-color: #FFF;
+  background-image: url('../../images/transparency-grid.png');
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4) inset;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  padding: 0;
+}
+.pluto-alpha-container .ui-slider-handle {
+  color: #777;
+  background-color: #FFF;
+  text-shadow: 0 1px 0 #FFF;
+  text-decoration: none;
+  position: absolute;
+  z-index: 2;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  border: 1px solid #aaa;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  opacity: 0.9;
+  margin-top: -2px;
+  height: 20px;
+  cursor: ew-resize;
+  font-size: 12px;
+  padding: 3px;
+}
+.pluto-alpha-container .ui-slider {
+  position: relative;
+  text-align: center;
+  width: 88%;
+}
+.wp-picker-container a.wp-picker-open ~ div.pluto-alpha-container {
+  display: block;
+}
+.pluto-alpha-container {
+  box-sizing: padding-box;
+  display: none;
+  border: 1px solid #dfdfdf;
+  border-top: none;
+  background: #FFF;
+  padding: 0 11px 6px;
+}
+.customize-control-alphacolor .wp-picker-container .iris-picker {
+  border-bottom: none;
+}
+.hidden-customizer-control {
+  position: absolute;
+  left: -999999px;
+  visibility: hidden;
+}
+
+/***********************************/
+/****** Google fonts Control *******/
+/***********************************/
+.aza-google-fonts-wrap {
+  background: rgba(255, 255, 255, 0.75);
+  padding: 10px;
+  border: 1px solid #ddd;
+  max-height: 140px;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+.aza-google-fonts-wrap label {
+  width: 100%;
+  display: block;
+  clear: left;
+  font-size: 16px;
+  line-height: 28px;
+  overflow: hidden;
+  position: relative;
+}
+
+.aza-google-fonts-wrap label input {
+  position: absolute;
+  left: -9999px;
+}
+
+.aza-google-fonts-wrap label:hover,
+.aza-google-fonts-wrap label.aza-google-fonts-active {
+  color: #0073aa;
+}
